@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account Form</title>
+    <link rel="stylesheet" href="webforms.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Create an account form</h3>
+        <form action="Submit_form" method="post">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="birthdate">Birthdate</label>
+                <input type="date" id="Birthdate" name="Birthdate" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="Email" name="Email" required>
+            </div>
+            <div>
+                <label for="phone number">Phone number</label>
+                <input type="numbers" id="phone number" name="phone number" required>
+            </div>
+            <div>
+                <label for="Gender">Gender</label>
+            </div>
+            <div>
+                <div class="radio-group">
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="Gender" value="Male">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="Gender" value="Female">
+                </div>
+        
+            <div>
+                <label for="user name">User Name</label>
+                <input type="text" id="user name" name="user name" required>
+            </div>
+            <div>
+                <label for="password">Create Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+            <div>
+                <input type="checkbox" id="Save" name="Save"> Save info
+            </div>
+
+            <div>
+                <input type="submit" value="Create account">
+            </div>
+        </form>
+        <div>
+            <a href="#Home">Continue with another account</a>
+        </div>
+    </div>
+</body>
+</html>
